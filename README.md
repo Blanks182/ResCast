@@ -22,6 +22,7 @@ Our solution, ResCast, predicts reservoir metrics like water levels and storage 
 ResCast features a hydrological hybrid predictive model, combining the strengths of two different approaches: a SARIMAX (Seasonal AutoRegressive Integrated Moving Average with eXogenous factors) model and a Multilayer Perceptron (MLP) neural network. This hybrid model effectively captures both linear and non-linear patterns in the data. The SARIMAX component analyzes seasonal trends and climatic influences, while the MLP adds depth by understanding complex, non-linear relationships. Together, they provide a comprehensive and nuanced forecast of water levels and storage volumes.
 
 **Dashboard**
+https://public.tableau.com/views/ResCast/OverviewTab?:language=en-US&:display_count=n&:origin=viz_share_link
 The ResCast dashboard is an interactive tool designed for ease of use. It visually presents the forecasted data, allowing users to quickly understand and analyze the predicted water levels and volumes. Features include interactive charts and graphs, a user-friendly interface, and real-time data updates. This dashboard serves as a vital tool for policymakers and water management authorities, providing them with actionable insights for strategic decision-making.
 
 ![dashboard_screenshot_1](./screenshots/dashboard/Screenshot%202021-07-26%20at%2010.22.56%20PM.png)
