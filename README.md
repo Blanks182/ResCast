@@ -14,9 +14,15 @@ ResCast, our hackathon entry for the Wave2Web Hack, addresses the critical chall
 
 The increasing demand for water in Bengaluru, due to urbanization and population growth, has placed significant strain on local water resources. Key reservoirs like Krishnaraja Sagar and Kabini are crucial for the city’s water supply, but their levels have often fallen below minimum drawdown levels during peak summers. An accurate forecasting model is needed to manage these risks effectively.
 
-### Solution - Hydrological Model:
+### Solution:
 
-Our solution, ResCast, uses hydrological modeling to predict reservoir metrics like water levels and storage volumes. The model incorporates time series data for hydro-meteorological variables to generate short-term predictions. This approach aids in assessing water availability for Bengaluru and its surrounding areas, contributing to more informed water management decisions.
+**Hydrological Model**
+Our solution, ResCast, predicts reservoir metrics like water levels and storage volumes. The model incorporates time series data for hydro-meteorological variables to generate short-term predictions.
+
+ResCast features a hydrological hybrid predictive model, combining the strengths of two different approaches: a SARIMAX (Seasonal AutoRegressive Integrated Moving Average with eXogenous factors) model and a Multilayer Perceptron (MLP) neural network. This hybrid model effectively captures both linear and non-linear patterns in the data. The SARIMAX component analyzes seasonal trends and climatic influences, while the MLP adds depth by understanding complex, non-linear relationships. Together, they provide a comprehensive and nuanced forecast of water levels and storage volumes.
+
+**Dashboard**
+The ResCast dashboard is an interactive tool designed for ease of use. It visually presents the forecasted data, allowing users to quickly understand and analyze the predicted water levels and volumes. Features include interactive charts and graphs, a user-friendly interface, and real-time data updates. This dashboard serves as a vital tool for policymakers and water management authorities, providing them with actionable insights for strategic decision-making.
 
 ### Key Features:
 
