@@ -24,6 +24,11 @@ ResCast features a hydrological hybrid predictive model, combining the strengths
 **Dashboard**
 The ResCast dashboard is an interactive tool designed for ease of use. It visually presents the forecasted data, allowing users to quickly understand and analyze the predicted water levels and volumes. Features include interactive charts and graphs, a user-friendly interface, and real-time data updates. This dashboard serves as a vital tool for policymakers and water management authorities, providing them with actionable insights for strategic decision-making.
 
+![dashboard_screenshot_1](./screenshots/dashboard/Screenshot%202021-07-26%20at%2010.22.56%20PM.png)
+![dashboard_screenshot_2](./screenshots/dashboard/Screenshot%202021-07-26%20at%2010.23.21%20PM.png)
+![dashboard_screenshot_3](./screenshots/dashboard/Screenshot%202021-07-26%20at%2010.23.34%20PM.png)
+![dashboard_screenshot_4](./screenshots/dashboard/Screenshot%202021-07-26%20at%2010.23.50%20PM.png)
+
 ### Key Features:
 
 **Predictive Analytics**: Leveraging machine learning techniques to forecast reservoir levels and storage volumes.
